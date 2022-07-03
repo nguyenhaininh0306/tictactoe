@@ -1,0 +1,155 @@
+.btn-piece {
+  padding: 0;
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  border: 1px solid gray !important;
+  font: 1em sans-serif;
+  transition: none !important;
+}
+
+.btnX {
+  color: lightcoral;
+}
+
+.btnO {
+  color: black;
+}
+
+.btn-win {
+  background-color: seagreen;
+}
+.not-focusable:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-piece:hover {
+  background-color: gold;
+  cursor: pointer;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+.footer {
+  padding: 10px;
+  letter-spacing: 0.6em;
+  width: 100%;
+}
+
+.input-custom {
+  margin: 150px auto;
+  display: flex;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.flex-1 {
+  display: flex;
+  gap: 50px;
+}
+
+.fetch-board {
+  margin-top: 200px;
+}
+
+.information b {
+  letter-spacing: 1px;
+}
+
+.information .title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input-custom p {
+  margin: auto;
+}
+
+.input-custom input {
+  margin: auto;
+  min-height: 150px;
+  max-height: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  text-align: center;
+  font: 2em sans-serif;
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal,
+.modal-container .modal-backdrop {
+  position: absolute;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.player-current {
+  width: 500px;
+}
+
+.player-current-1 {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.player-current-2 {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.countdown-timer {
+  width: 500px;
+  border: 2px solid black;
+
+  font-size: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.timer {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.btn-reset {
+  margin-top: 30px;
+}
+
+.result p {
+  font-size: 24px;
+  font-weight: 600;
+}
